@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #24453b;
+    background: #ddede8;
+}
+a:link, a:visited, a:active{
+    color: #24453b;
+    text-decoration: none;
+}
+a:hover{
+    color: #57a58d;
+    text-decoration: underline;
+}
+/* Reutilizavel */
+.sem-padding{
+    padding: 0 !important;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+    margin: 15px 0px 10px 0px;
+}
+ul li, ol li{
+    margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+    display: inline;
+    margin-right: 15px;
+}
+ul.inline li:last-child{
+    margin-right: 0;
+}
+ul.sem-marcador{
+    list-style: none;
+}
+a.botao, input.botao{
+    border: none;
+    padding: 5px 10px;
+    margin: 5px 0;
+    background: #24453b;
+    border-radius: 3px;
+    color: #ddede8;
+    cursor: pointer;
+    display: inline-block;
+}
+a.botao:hover, input.botao:hover{
+    text-decoration: none;
+    background: #57a58d;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Layout */
+.header{
+    background: #bcdbd1;
+}
+h1.logo{
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: -2px;
+}
+.conteudo-extra{
+    background: #bcdbd1;
+}
+.footer{
+    background: #24453b;
+    color: #9ccabc;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 400;
+}
+.menu{
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-align: right;
+}
+.menu li a{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    background: #24453b;
+    text-decoration: none;
+    color: #ddede8;
+}
+ul.noticias li{
+    clear: both;
+    overflow: hidden;
+    display: block;
+    margin: 20px;
+}
+ul.noticias li h4{
+    margin: -2px 0 5px 0;
+    font-weight: 500;
+}
+ul.noticias li p{
+    margin: 5px 0;
+    font-weight: 300;
+}
+ul.noticias li img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+.contato label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.contato input, textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+.contato input.botao{
+    width: auto;
+}
+.contato textarea {
+    height: 150px;
+}
